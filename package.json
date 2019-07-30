@@ -1,0 +1,21 @@
+{
+    "name": "zodiac",
+    "displayName": "Zodiac",
+    "description": "Zodiac theme for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zodiac",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zodiac-color-theme.json"
+            }
+        ]
+    }
+}
