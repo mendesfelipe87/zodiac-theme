@@ -119,17 +119,13 @@
         "foreground": "#89DDFF"
       }
     },
-    {
-      "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
-      "settings": {
-        "foreground": "#FF404A"
-      }
-    },
+		{
+			"name": "Tag and Custom Tags",
+			"scope": ["entity.other.tag", "support.class.component.js"],
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
     {
       "name": "Function, Special Method, Block Level",
       "scope": [
@@ -155,9 +151,8 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Constant, Function Argument",
       "scope": [
-        "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
@@ -188,7 +183,6 @@
       "name": "Class, Support",
       "scope": [
         "entity.name.class",
-        "entity.name.type.class",
         "support.type",
         "support.class",
         "support.other.namespace.use.php",
@@ -248,24 +242,6 @@
       ],
       "settings": {
         "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Attributes",
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#AE6BFF"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFCB6B"
       }
     },
     {
@@ -735,7 +711,7 @@
       "name": "GitGutter Changed",
       "scope": "markup.changed.git_gutter",
       "settings": {
-        "foreground": "#FFBB3D"
+        "foreground": "#FFF700"
       }
     },
     {
@@ -817,7 +793,35 @@
       "settings": {
         "foreground": "#3DFFF9"
       }
-    }
+    },
+		{
+			"name": "Tag Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#aa66ff"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": "entity.name.type.class.js",
+			"settings": {
+				"foreground": "#69FF71"
+			}
+		},
+		{
+			"name": "Inherited Class, Export and Class Usage",
+			"scope": ["entity.other.inherited-class.js", "keyword.control.export.js", "storage.type.class.js"],
+			"settings": {
+				"foreground": "#c2cacf"
+			}
+		}
   ],
   "uuid": "133d1250-19c6-4565-bc93-b37fd36f7fc9"
 }

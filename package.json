@@ -14,7 +14,7 @@
             {
                 "label": "Zodiac",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Zodiac-color-theme.json"
+                "path": "./themes/zodiac.theme.json"
             }
         ]
     }
